@@ -5,11 +5,11 @@
 
 <ul>
     <% for post in @posts %>
-        <ol>
+        <li>
         <%= post["title"] %>
         <%= post["posted_on"] %>
         <%= post["description"] %>
-        </ol>
+        </li>
     <% end %>
 </ul>
 
